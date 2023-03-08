@@ -1,0 +1,99 @@
+p, span, button, li, div {
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+.product-news {
+    padding-top: 125px;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.35s ease 0s;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: rgba(0, 0, 0, 0.004) 1px 1px 1px;
+    color: rgb(51, 51, 51);
+}
+.kiBiUk {
+    width: 1180px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+.SBWwy {
+    padding: 0.75rem 1rem;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+a {
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+}
+/* @media screen and (min-width: 440px); */
+/* @media screen and (min-width: 991px);
+.hQHbTR {
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    gap: 30px;
+}
+@media screen and (min-width: 768px)
+.hQHbTR {
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    gap: 20px;
+}
+@media screen and (min-width: 440px)
+.hQHbTR {
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+} */
+.hQHbTR {
+    display: grid;
+    margin: 0px 15px 20px;
+    gap: 10px;
+    /* grid-template-columns: repeat(1, minmax(180px, 1fr));
+    grid-template-columns: repeat(2, minmax(180px, 1fr)); */
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    gap: 30px;
+}
+.bsFaPi {
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    flex-shrink: 0;
+    border: 2px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px;
+}
+.BDzcJ {
+    padding: 0.5rem;
+    align-self: center;
+}
+.gNvOzB {
+    max-height: 224px;
+    height: auto;
+}
+img {
+    max-width: 100%;
+}
+.hHFMTZ {
+    font-weight: 500;
+    font-size: 17.5px;
+    padding: 0.5rem;
+}
+.glnPFp {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0rem;
+    font-size: 12.25px;
+}
+.gLlKRH {
+    height: 10px;
+}
